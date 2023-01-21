@@ -3,7 +3,7 @@
   }
 
   #secciondatos {
-    width: 50%;
+    width: 50;
     margin: 0 auto;
   }
 
@@ -32,7 +32,7 @@
   }
 
   .seccion {
-    width: 50%;
+    width: 60%;
     margin: 0 auto; 
     background-color: white;
     padding: 2%;
@@ -51,6 +51,8 @@
 
 nav ul {
     list-style-type:none;
+    display: flex;
+    justify-content: space-around;
 
 }  
 #secciondatos p {
@@ -59,3 +61,33 @@ nav ul {
     color: #373B41;
     
   }
+  #seccioncontactenos{
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1"
+                         "area2 area2 area3 area3"
+                         "area4 area4 area5 area5";
+  }
+
+  #seccioncontactenos h2 {
+    grid-area: area1;
+}
+
+#seccioncontactenos h3#datos {
+  grid-area: area2;
+}
+
+#seccioncontactenos h3#ubicacion {
+  grid-area: area3;
+}
+
+#seccioncontactenos form {
+  grid-area: area4;
+}
+#seccioncontactenos h3#ubicacion div {
+  grid-area: area5;
+}
+#direccion{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
