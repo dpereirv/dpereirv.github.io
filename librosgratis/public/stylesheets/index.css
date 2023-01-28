@@ -1,0 +1,102 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+header, nav, main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    padding-top: 15%;
+}
+
+header {    
+    display: grid;
+    grid-template-areas: "col1 col2"
+                         "col3 col4";
+    column-gap: 2rem;
+}
+
+header h1 {
+    grid-area: col1;
+    font-size: 3rem;
+}
+
+header p {
+    grid-area: col3;
+    line-height: 1.5rem;
+}
+
+header p span {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+header div {
+    grid-area: col4;
+}
+
+header div img {
+    width: 6rem;
+    border: white 1rem solid;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav ul {
+    padding-top: 1%;
+}
+
+nav ul a {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+main h2 {
+    padding-top: 2%;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main div img {
+    width: 9rem;
+    border: white 1rem solid;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
