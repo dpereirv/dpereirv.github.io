@@ -1,0 +1,26 @@
+.header {
+    background-color: rgb(32, 32, 32);
+}
+.bi-facebook{
+    color: rgb(245, 243, 243);
+}
+.bi-twitter{
+    color: rgb(245, 243, 243);
+}
+.bi-instagram{
+    color: rgb(245, 243, 243);
+}
+.bi-search
+{
+    color: rgb(245, 243, 243);
+}
+#Titulo{
+    color: rgb(245, 243, 243);
+}
+.navbar a{
+    color: white;
+}
+   
+.navbar .dropdown ul {
+    background: rgb(83, 83, 88);
+  }
